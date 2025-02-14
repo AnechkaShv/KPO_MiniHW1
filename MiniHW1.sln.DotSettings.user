@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=eac850f1_002Df5c6_002D4add_002D8981_002D40f7010fb509/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetAnimals_ReturnsAnimals" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::4E57EA0D-CB53-47A0-9229-83ACAE7EA82F::net6.0::Test.ZooTest.GetAnimals_ReturnsAnimals&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4E57EA0D-CB53-47A0-9229-83ACAE7EA82F::net6.0::Test.ZooTest.Add_Healthy_Animal&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4E57EA0D-CB53-47A0-9229-83ACAE7EA82F::net6.0::Test.ZooTest.Get_Contact_Animals&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::4E57EA0D-CB53-47A0-9229-83ACAE7EA82F::net6.0::Test.ZooTest.Herbo_Kindness_OutOfRange_ThrowsException&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
