@@ -19,10 +19,14 @@ namespace Domain.Repositories
 
         public void Remove(Thing thing)
         {
+            if (_things.Any() && _things.Contains(thing))
+            {
+                _things.Remove(thing);
+            }
             _things.Remove (thing);
         }
 
-        public List<Thing> Things { get; }
+        public List<Thing> Things { get{return _things; } }
 
     }
 }

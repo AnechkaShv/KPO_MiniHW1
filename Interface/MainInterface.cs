@@ -103,12 +103,13 @@ namespace Interface
                         break;
                     // Adding thing.
                     case 2:
-                        Menu thingMenu = new Menu("Choose animal",
+                        Menu thingMenu = new Menu("Choose thing",
                             new string[] { "1. Table", "2. Computer" });
                         int thingNum = thingMenu.ActMenu();
                         
                         // Adding table.
-                        if (thingNum == 1)
+                        if (thingNum == 
+                            1)
                         {
                             zoo.AddThing(new Table());
                         }
@@ -181,6 +182,7 @@ namespace Interface
                     Menu isContinue = new Menu("Do you want to exit?", new string[] { "1. Yes", "2. No" });
                     if (isContinue.ActMenu() == 1)
                     {
+                        
                         exit = true;
 
                     }
