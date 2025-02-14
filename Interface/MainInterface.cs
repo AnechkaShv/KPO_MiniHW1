@@ -175,12 +175,15 @@ namespace Interface
                         break;
 
                 }
-                Menu isContinue = new Menu("Do you want to exit?", new string[] {"1. Yes", "2. No"});
-                if (isContinue.ActMenu() == 1)
+
+                if (num != 7)
                 {
-                    exit = true;
-                    
-                    
+                    Menu isContinue = new Menu("Do you want to exit?", new string[] { "1. Yes", "2. No" });
+                    if (isContinue.ActMenu() == 1)
+                    {
+                        exit = true;
+
+                    }
                 }
             }
         }
